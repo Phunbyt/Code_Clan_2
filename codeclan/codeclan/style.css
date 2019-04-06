@@ -1,0 +1,124 @@
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.page-background{
+    width: 100%;
+    height: 100vh;
+    background: url("images/blueyellowpencils\ -\ Copy.jpeg") center no-repeat;
+    background-size: cover;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo-band{
+    height: 200px;
+}
+
+.head-tag1{
+    font-size: 2em;
+    font-weight: bolder;
+    
+}
+
+.head-tag2{
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-left: 8em;
+}
+
+.big-font{
+    font-size: 2em;
+    text-align: left;
+    margin-right: 22em;
+}
+
+.comment-btn{
+    margin: 1em 0 .3em 0;
+    background-color: rgba(0, 0, 0, .0);
+    border: 0;
+    border-bottom: 2px solid black;
+}
+
+.comment-btn1{
+    margin: .5em 0 .3em 0;
+    background-color: rgba(0, 0, 0, .0);
+    border: 0;
+    border-bottom: 2px solid black;
+}
+
+.btn{
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(177, 177, 10);
+}
+
+.touch{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.footer-band{
+    height: 50px;
+    border-radius: 10%;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    margin-top: -4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    padding-right: 3em;
+}
+
+.big-font{
+    font-size: 2em;
+    text-align: left;
+    margin-right: 20em;
+}
+
+table{
+    background: rgba(255, 227, 67, 0);
+}
+
+
+.table-container{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, .0);
+    font-size: 2em;
+}
